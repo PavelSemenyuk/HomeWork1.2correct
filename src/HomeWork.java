@@ -54,5 +54,15 @@ public class HomeWork {
         var weightDefference2 = boxer2 % boxer1;
         System.out.println("Разница между весом боксеров (остаток от деления): " + weightDefference2 + " кг.");
 
+        var workingHours = 640;
+        var workers = workingHours / 8;
+        System.out.println("Всего работников в компании - " + workers + " человек.");
+        workers = workers + 94;
+        var totalHours = workers * 8;
+        System.out.println("Если в компании работает " + workers + " человека, то всего " + totalHours + " часов работы может быть поделено между сотрудниками." );
+
+
+
+
     }
 }
